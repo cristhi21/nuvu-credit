@@ -27,6 +27,10 @@ public class CreditCard {
     @Column(name = "id_franchise", nullable = false)
     private Integer idFranchise;
 
+    @ManyToOne
+    @JoinColumn(name = "id_person", insertable = false, updatable = false)
+    private Person person;
+
     public Long getId() {
         return id;
     }
@@ -82,6 +86,14 @@ public class CreditCard {
     public void setIdFranchise(Integer idFranchise) {
         this.idFranchise = idFranchise;
     }
+
+    /*public Person getPerson() {
+        return person;
+    }
+
+    public void setPerson(Person person) {
+        this.person = person;
+    }*/
 
     @Override
     public String toString() {

@@ -20,8 +20,8 @@ public class Person {
     private String adress;
     private String mail;
 
-    /*@OneToMany
-    private List<CreditCard> creditCards;*/
+    @OneToMany(mappedBy = "person")
+    private List<CreditCard> creditCards;
 
     public Long getId() {
         return id;
@@ -69,6 +69,14 @@ public class Person {
 
     public void setMail(String mail) {
         this.mail = mail;
+    }
+
+    public List<CreditCard> getCreditCards() {
+        return creditCards;
+    }
+
+    public void setCreditCards(List<CreditCard> creditCards) {
+        this.creditCards = creditCards;
     }
 
     @Override
