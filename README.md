@@ -18,8 +18,10 @@ de personas con sus tarjetas de crédito.
 ### Uso
 ***
 1. Descargar proyecto y ejecutarlo
-2. se debe ingresar al siguiente endPoint: [Authenticate](http://localhost:8070/nuvu-credit/api/authenticate)
-3. Ingresar las siguientes credenciales en el cuerpo de la petición:
+2. Ingresar a la documentación: [Ver Documentacion de la API](http://localhost:8070/nuvu-credit/api/swagger-ui/index.html),
+   Doc JSON: [Ver doc JSON](http://localhost:8070/nuvu-credit/api/v2/api-docs) 
+3. Este endPoint es para autenticación: [Authenticate](http://localhost:8070/nuvu-credit/api/authenticate)
+4. Ingresar las siguientes credenciales en el cuerpo de la petición:
 
 ```
 {
@@ -28,9 +30,8 @@ de personas con sus tarjetas de crédito.
 }
 ```
    
-4. Ingresar a la documentación: [Ver Documentacion de la API](http://localhost:8070/nuvu-credit/api/swagger-ui.html),
-   Doc JSON: [Ver doc JSON](http://localhost:8070/nuvu-credit/api/v2/api-docs)
-5. verificar los endpoint e ingresar el Header, 
+
+5. verificar los endpoint, ingresando en el Header, 
 
 | Clave         |Valor         |
 |---------------|--------------|
@@ -44,4 +45,5 @@ localhost:8070/nuvu-credit/api
 
 ### Autor
 
-    Cristhian Andres Vargas Cuero
+      Cristhian Andres Vargas Cuero
+      Mayo 2020
