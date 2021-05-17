@@ -28,7 +28,8 @@ de personas con sus tarjetas de crédito.
 }
 ```
    
-4. Ingresar a la documentación: [Ver Documentacion de la API](http://localhost:8070/nuvu-credit/api/swagger-ui.html)
+4. Ingresar a la documentación: [Ver Documentacion de la API](http://localhost:8070/nuvu-credit/api/swagger-ui.html),
+   Doc JSON: [Ver doc JSON](http://localhost:8070/nuvu-credit/api/v2/api-docs)
 5. verificar los endpoint e ingresar el Header, 
 
 | Clave         |Valor         |
